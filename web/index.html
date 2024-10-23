@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Teste</title>
+    <title>Formulário Simples</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Bem-vindo à Página de Teste</h1>
-    <p>Este é um parágrafo de exemplo.</p>
-    <a href="#">Clique aqui para mais informações</a>
+    <h1>Formulário Simples</h1>
+    <form id="meuForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="resultado"></p>
 </body>
 </html>
