@@ -5,8 +5,8 @@
   }
   
   :root {
-    --text-color: black
-    --bg-url: url(bg-desktop-dark.jpg);
+    --text-color: black;
+    --bg-url: url(bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
   
   .light {
     --text-color: black;
-    --bg-url: url(bg-desktop-dark.jpg);
+    --bg-url: url(bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -80,7 +80,7 @@
   #switch button {
     width: 32px;
     height: 32px;
-    background: white var(--switch-bg-url) no-repeat center;
+    background: black var(--switch-bg-url) no-repeat center;
     border: 0;
     border-radius: 50%;
   
